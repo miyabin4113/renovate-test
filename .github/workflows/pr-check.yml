@@ -29,6 +29,9 @@ jobs:
       - name: Prettier & ESLint Check
         run: pnpm lint
 
+      - name: Install Playwright Browsers
+        run: pnpm exec playwright install
+
       - name: Playwright & vitest Check
         run: pnpm test
 
