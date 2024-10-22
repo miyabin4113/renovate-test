@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["node"],
-      "allowedVersions": "/^[0-9]*[02468]([.-].*)?$/",
+      "allowedVersions": "/[0-9]*[02468]([.-].*)?$/",
       "groupName": "node"
     }
   ]
