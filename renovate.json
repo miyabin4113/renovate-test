@@ -5,7 +5,7 @@
     "config:best-practices",
     ":disableRateLimiting"
   ],
-  "enabledManagers": ["npm", "dockerfile", "github-actions"],
+  "enabledManagers": ["dockerfile", "github-actions"],
   "packageRules": [
     {
       "matchPackageNames": ["node"],
